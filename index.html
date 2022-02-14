@@ -13,6 +13,14 @@
         renderer='antialias: true; alpha: true'>
             <a-camera gps-projected-camera rotation-reader></a-camera>
             <a-box gps-projected-entity-place='latitude: your-lat; longitude: your-lon' material='color: red' scale='10 10 10'></a-box>
-        </a-scene>
+       <a-text
+position="30 0 0"
+        value="WELCOME"
+
+        look-at="[gps-camera]"
+
+        scale="25 25 25"
+
+ </a-scene>
     </body>
 </html>
